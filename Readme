@@ -1,2 +1,8 @@
+Inspiration
+I was watching a show called Glow Up and there was a contestant named Leigh Easthope who is color blind and a leading make artist on youtube. I couldn't imagine the struggle anyone faces to achieve the right foundation shade. From then I talked to my friend who is color blind as well and he explained to me what he goes through daily from fashion to makeup. Color blindness is a reduced ability to distinguish between colors when compared to the standard for normal human color vision. When a person is color blind, also called color vision deficiency (CVD), they usually have difficulty distinguishing between specific colors such as yellow and orange, green and brown, pink and gray, or blue and purple. To make their lives a bit easier, I have made an Augmented Reality filter on Snapchat for them to easily see their makeup by choosing their deficiency condition filter and contouring using a series of contour shape guides in their deficiency condition color-corrected filter.
 
-Readme
+What it does
+It is a one-stop AR lens/filter to see a color-corrected world like how they see it and understand it in a better way. Along with that, they can contour faces with the guidelines given from a pool of different face shapes contour built using photoshop.
+
+How we built it
+I have used c++ and color theory to generate color lookups and LUTs for adding a post effect in Lens Studio that will do pixel-by-pixel correction for their deficiency. I have used Photoshop for painting contours for each face shape like oval, round, rectangle, heart, and diamond. I have used JavaScript for the functionality of UI elements like buttons and contour carousels.
